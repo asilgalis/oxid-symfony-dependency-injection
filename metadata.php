@@ -4,6 +4,8 @@
  */
 $sMetadataVersion = '1.1';
 
+$_sSrcOxidDir = 'oxid-symfony-dependency-injection/src_oxid';
+
 /**
  * Module information
  */
@@ -15,4 +17,7 @@ $aModule = [
     ],
     'author'      => 'Andrius Šilgalis',
     'version'     => '0.0.1',
+    'extend'      => [
+        'oxshopcontrol' => $_sSrcOxidDir . '/core/AsSymfonyDiShopControl',
+    ],
 ];
