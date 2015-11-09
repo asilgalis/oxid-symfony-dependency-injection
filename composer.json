@@ -1,0 +1,14 @@
+{
+  "name": "asilgalis/oxid-symfony-dependency-injection",
+  "type": "oxid-module",
+  "description": "Symfony Dependency Injection for OXID eShop",
+  "authors": [
+    {
+      "name": "Andrius Šilgalis"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "composer/installers": "~1.0"
+  }
+}
