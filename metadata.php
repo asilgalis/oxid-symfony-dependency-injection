@@ -10,7 +10,7 @@ $_sSrcOxidDir = 'oxid-symfony-dependency-injection/src_oxid';
  * Module information
  */
 $aModule = [
-    'id'          => 'oxid-symfony-dependency-injection',
+    'id'          => 'as-symfony-di',
     'title'       => 'Symfony Dependency Injection for OXID eShop',
     'description' => [
         'en' => 'Symfony Dependency Injection for OXID eShop.',
