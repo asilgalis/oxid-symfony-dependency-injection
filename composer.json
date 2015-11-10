@@ -19,8 +19,8 @@
   },
   "autoload": {
     "psr-4": {
-      "ASilgalis\\SymfonyDi\\": "src/",
-      "ASilgalis\\SymfonyDi\\Tests\\Unit\\": "tests/src/unit"
+      "ASilgalis\\OxidModule\\SymfonyDi\\": "src/",
+      "ASilgalis\\OxidModule\\SymfonyDi\\Tests\\Unit\\": "tests/src/unit"
     },
     "classmap": [
       "src_oxid/"

@@ -1,6 +1,6 @@
 <?php
 
-namespace ASilgalis\SymfonyDi\DependencyInjection;
+namespace ASilgalis\OxidModule\SymfonyDi\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 

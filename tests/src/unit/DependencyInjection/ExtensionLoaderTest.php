@@ -1,8 +1,8 @@
 <?php
 
-namespace ASilgalis\SymfonyDi\Tests\Unit\DependencyInjection;
+namespace ASilgalis\OxidModule\SymfonyDi\Tests\Unit\DependencyInjection;
 
-use ASilgalis\SymfonyDi\DependencyInjection\ExtensionLoader;
+use ASilgalis\OxidModule\SymfonyDi\DependencyInjection\ExtensionLoader;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 
 class ExtensionLoaderTest extends DependencyInjectionTestCase

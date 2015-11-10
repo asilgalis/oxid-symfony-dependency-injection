@@ -1,8 +1,8 @@
 <?php
 
-namespace ASilgalis\SymfonyDi\Tests\Unit\DependencyInjection;
+namespace ASilgalis\OxidModule\SymfonyDi\Tests\Unit\DependencyInjection;
 
-use ASilgalis\SymfonyDi\DependencyInjection\ContainerBuilderAwareTrait;
+use ASilgalis\OxidModule\SymfonyDi\DependencyInjection\ContainerBuilderAwareTrait;
 
 class ContainerBuilderAwareTraitTest extends DependencyInjectionTestCase
 {
