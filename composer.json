@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "php": ">=5.5.0",
+    "php": ">=5.4.0",
     "composer/installers": "~1.0",
     "symfony/dependency-injection": "~2.7",
     "symfony/config": "~2.7",
