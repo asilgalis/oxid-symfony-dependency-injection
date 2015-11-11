@@ -44,7 +44,7 @@ class ExtensionLoaderTest extends DependencyInjectionTestCase
      */
     private function createExtensionMock($methods = [])
     {
-        $mock = $this->getMockBuilder(ExtensionInterface::class)
+        $mock = $this->getMockBuilder('\Symfony\Component\DependencyInjection\Extension\ExtensionInterface')
             ->setMethods($methods)
             ->getMockForAbstractClass();
 

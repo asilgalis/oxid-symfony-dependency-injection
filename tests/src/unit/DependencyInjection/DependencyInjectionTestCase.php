@@ -13,7 +13,7 @@ class DependencyInjectionTestCase extends \PHPUnit_Framework_TestCase
      */
     protected function createContainerBuilderMock($methods = [])
     {
-        $mock = $this->getMockBuilder(ContainerBuilder::class)
+        $mock = $this->getMockBuilder('\Symfony\Component\DependencyInjection\ContainerBuilder')
             ->disableOriginalConstructor()
             ->setMethods($methods)
             ->getMock();

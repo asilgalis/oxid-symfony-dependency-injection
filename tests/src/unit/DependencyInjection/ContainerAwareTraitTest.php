@@ -21,7 +21,7 @@ class ContainerAwareTraitTest extends DependencyInjectionTestCase
      */
     private function createContainerAwareTrait()
     {
-        $trait = $this->getMockBuilder(ContainerAwareTrait::class)
+        $trait = $this->getMockBuilder('\ASilgalis\OxidModule\SymfonyDi\DependencyInjection\ContainerAwareTrait')
             ->getMockForTrait();
 
         return $trait;
