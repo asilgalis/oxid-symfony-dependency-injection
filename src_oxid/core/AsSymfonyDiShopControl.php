@@ -4,9 +4,6 @@ use ASilgalis\OxidModule\SymfonyDi\DependencyInjection\ContainerAwareTrait;
 use ASilgalis\OxidModule\SymfonyDi\DependencyInjection\ExtensionLoader;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-/**
- * @codeCoverageIgnore
- */
 class AsSymfonyDiShopControl extends AsSymfonyDiShopControl_parent
 {
     use ContainerAwareTrait;
