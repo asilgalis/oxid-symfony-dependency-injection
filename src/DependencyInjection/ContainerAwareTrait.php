@@ -24,11 +24,9 @@ trait ContainerAwareTrait
      */
     public function getContainer()
     {
-        // @codeCoverageIgnoreStart
         if ($this->container === null) {
             $this->container = \oxRegistry::get('container');
         }
-        // @codeCoverageIgnoreEnd
 
         return $this->container;
     }
